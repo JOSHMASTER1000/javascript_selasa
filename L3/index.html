@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input, Output & Function</title>
+</head>
+<body>
+    <div>
+        <p id="test2_display"></p>
+    </div>
+
+    <div id="test1">
+        <p>SLAYYYYYYYYYYYYYYY</p>
+    </div>
+
+    <input type="submit" value="SHOW ME NOWW!!!!!" onclick="btn_value()" />
+
+    <form action="">
+        <input type="text" placeholder="username/email" />
+        <input type="password" placeholder="password" />
+        <input type="submit" value="Login" onclick="but_value()" />
+
+    </form>
+
+    <script>
+        // note:
+        // innerHTML = with tag
+        // innerTect = only text
+        document.getElementById("test1").innerHTML;
+        document.getElementById("test2_display").innerHTML = "<p>DIS TEXT NIGGA</p>"
+
+        let innerhtml_test = document.getElementById("test1").innerhtml;
+        alert(innerhtml_test);
+
+        function btn_value(){ 
+            alert("hi, nice to see you. THanks to show me");
+        }
+        function but_value(){
+            alert("AAAAAAAAAAAAAAAAAAAAAAAAAAA KAMU SUDAH LOGIN");
+        }
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
